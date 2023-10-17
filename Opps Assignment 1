@@ -1,0 +1,225 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "fa3ce2e9-841d-4f6e-8b15-e307180f8ef9",
+   "metadata": {},
+   "source": [
+    "Question no 1 "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "76d816e2-b574-49f4-932a-35850312272a",
+   "metadata": {},
+   "source": [
+    "Class vehical"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "b368ae3c-6cd3-4866-9cfd-5fd44df83e61",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (2660846605.py, line 2)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[3], line 2\u001b[0;36m\u001b[0m\n\u001b[0;31m    self max___speed= max__speed\u001b[0m\n\u001b[0m         ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "def__inti__( self, max__speed, mileage)\n",
+    "self max___speed= max__speed\n",
+    "self, mileage= mileage"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "d633eef7-0063-4349-848b-70555f6d5e8c",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax. Perhaps you forgot a comma? (1350079085.py, line 2)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[4], line 2\u001b[0;36m\u001b[0m\n\u001b[0;31m    print ( car max __ speed, car mileage )\u001b[0m\n\u001b[0m            ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax. Perhaps you forgot a comma?\n"
+     ]
+    }
+   ],
+   "source": [
+    "car= vehical ( 220, 10,000)\n",
+    "print ( car max __ speed, car mileage )"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "996e56fe-04ae-4643-9bda-f167312ab921",
+   "metadata": {},
+   "source": [
+    "Question no.2 "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "53b12627-914e-4253-8562-00d1dce0dffb",
+   "metadata": {},
+   "source": [
+    "Class Vehical ( ABC )\n",
+    "@ abstraction method\n",
+    "def start ( self )\n",
+    "pass;\n",
+    "class car ( vehical )\n",
+    "def start ( self ) \n",
+    "self ___ supply power ( from battery ()\n",
+    "self___ rotate Engine ()\n",
+    "self__ignition()\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "09154a35-7422-45d4-890e-582fde4bf6bf",
+   "metadata": {},
+   "source": [
+    "def___supply power from battery ( self )\n",
+    "print ( \" supply power from battery\" ) "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f0c66348-9d3a-4bdc-9b69-47415cabfe0f",
+   "metadata": {},
+   "source": [
+    "Question no. 3"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7c9799d1-4fbd-4492-80ff-54441018b405",
+   "metadata": {},
+   "source": [
+    "A Sub class can inherit from two or more superclasses allow a child class to inherit properties or behaviour from multiple \n",
+    "base classes base class 1 * base class 2"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "696923c6-cac0-49b7-8701-21878fa691d8",
+   "metadata": {},
+   "source": [
+    "Question no. 4"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9c8fe435-54cb-4f5b-9dab-2294a79e6fe5",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Used to protect your data particular when creating classes"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "89a0cf04-6c5d-40e6-999b-d7c30859d728",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "// Getter \n",
+    "public string get color \n",
+    "return color "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "baf5f8e7-a89b-48f3-afff-0441a3ad6e8b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "// setter \n",
+    "public void set color ( string )\n",
+    "this color= c "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a6ea2d10-02dc-4fa7-b159-d58e8ea2b283",
+   "metadata": {},
+   "source": [
+    "Question no. 5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ed8d6b52-19cb-4589-85f3-64139630c10e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "When you have two method with the some name that each perform different task"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "eed858ec-5349-477b-a5a6-de1453e44cf1",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "class Employe\n",
+    "def add ( self a,b )\n",
+    "print ( the sum of two = a*b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "26855288-5df8-4c16-b32f-ff2d7192b9d1",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "class department ( Employee ) "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "42f2644f-377a-4923-bba9-2f3eaaae6648",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def add ( self a,b,c )\n",
+    "print ( The sum of three a*b*c ) "
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
